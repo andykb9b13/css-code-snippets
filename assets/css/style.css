@@ -1,0 +1,20 @@
+:root {
+    --text-color: rgb(212, 113, 244);
+    --background-color: rgb(49, 58, 66);
+    --header-border: 1px solid white;
+    --card-border: 1px dashed white;
+    --border-radius: 8px;
+    --code-font: "Courier New", Courier, monospace;
+    --text-align: center;
+    --text-color: white;
+  }
+  
+
+
+.boxcontent {
+    user-select: text;
+    color: var(--text-color);
+    background-image: linear-gradient(gray, purple);
+    border-radius: var(--border-radius);
+}
+
